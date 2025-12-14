@@ -6,7 +6,7 @@ body {
     position: relative;
     background:
         linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)), /* 白レイヤー（全面） */
-        url(image/IMG_3730.jpg); 
+        url(IMAGE/IMG_3730.jpg); 
     background-size: cover;
     background-position: center;
     overflow: hidden;
