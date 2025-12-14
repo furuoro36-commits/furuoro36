@@ -1,21 +1,59 @@
 @charset "UTF-8";
 /*ホーム画面*/
 body {
-    background-image: url(画像フォルダ/IMG_3730.jpg);
-    background-repeat: no-repeat;
+    margin: 0;
+    padding-top: 150px;
+    position: relative;
+    background:
+        linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)), /* 白レイヤー（全面） */
+        url(image/IMG_3730.jpg); 
     background-size: cover;
+    background-position: center;
+    overflow: hidden;
 }
-header{
-    color: aquamarine;
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 20px;
+    margin: 0;
+    z-index: 999;
 }
-div {
-    background-color: orange;
-    width: 30vw;
-    height: 200px;
-    margin: 100px 35vw 100px 35vw;
-    color:rgb(13, 203, 19);
-    font-size: 4vw;
-    text-align: center;
+.header_bar {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items:center;
+    background: #0d6828;
+    padding-left: 20px;
+    margin: 0;
+}
+.club_logo {
+    height: 40px;
+    margin-right: 20px;
+}
+.header_title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0;
+}
+.logo_mbteai {
+    display: flex;
+    justify-content: center;  /* 横中央 */
+    align-items: center;      /* 縦中央 */
+    margin: auto;
+}
+.botton {
+    background: #0d6828;
+    margin:0 45vw 0 45vw;
+    width: 10vw;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: bold;
 }
 /*診断画面*/
 section p {
@@ -26,27 +64,31 @@ section p {
 }
 #btn_q1{
     width: 15vw;
-    height: 200px;
-    margin: 100px 5vw 100px 30vw;
+    height: 100px;
+    margin: 50px 5vw 100px 30vw;
 }
 #btn_q2{
     width: 15vw;
-    height: 200px;
-}
-#btn_home{
-    background-color: aquamarine;
-    margin:0 45vw 0 45vw;
-    width: 10vw;
-    height: 50px;
-}
-#btn_fi{
-    margin:0 45vw 0 45vw;
-    width: 10vw;
-    height: 50px;
+    height: 100px;
 }
 /*結果画面*/
-#kekka{
-    margin:0 45vw 0 45vw;
-    width: 10vw;
+.kekka{
+    margin:0 40vw 0 40vw;
+    width: 20vw;
+    height: 50px;
+}
+.otyaya_gazou{
+    margin:0 40vw 0 40vw;
+    width: 20vw;
+    height: 200px;
+}
+.kekka_bun{
+    margin:0 40vw 0 40vw;
+    width: 20vw;
+    height: 30px;
+}
+.kekka_hyouzi{
+    margin:0 40vw 0 40vw;
+    width: 20vw;
     height: 50px;
 }
