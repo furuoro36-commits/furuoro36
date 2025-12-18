@@ -77,7 +77,7 @@ section p {
     width: 20vw;
     height: 50px;
 }
-.otyaya_gazou{
+#otyaya_gazou{
     margin:0 40vw 0 40vw;
     width: 20vw;
     height: 200px;
@@ -87,7 +87,7 @@ section p {
     width: 20vw;
     height: 30px;
 }
-.kekka_hyouzi{
+#kekka_hyouzi{
     margin:0 40vw 0 40vw;
     width: 20vw;
     height: 50px;
