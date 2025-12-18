@@ -63,13 +63,23 @@ section p {
     font-size: 4vw;
 }
 #btn_q1{
-    width: 15vw;
-    height: 100px;
-    margin: 50px 5vw 100px 30vw;
+    background: #8e0d0d;
+    margin:100px 5vw 20px 37vw;
+    width: 10vw;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: bold;
 }
 #btn_q2{
-    width: 15vw;
-    height: 100px;
+    background: #14419b;
+    width: 10vw;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: bold;
 }
 /*結果画面*/
 .kekka{
