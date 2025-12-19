@@ -44,6 +44,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
         document.getElementById('btn_fi').style.display = 'inline'
         document.querySelector("#btn_q1").disabled = true;
         document.querySelector("#btn_q2").disabled = true;
+        document.getElementById('btn_q1').style.display = 'none'
+        document.getElementById('btn_q2').style.display = 'none'
         let k = a.toString();
         sessionStorage.setItem('shindankekka',k );
     }
@@ -57,6 +59,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
         document.getElementById('btn_fi').style.display = 'inline';
         document.querySelector("#btn_q1").disabled = true;
         document.querySelector("#btn_q2").disabled = true;
+        document.getElementById('btn_q1').style.display = 'none'
+        document.getElementById('btn_q2').style.display = 'none'
         let k = a.toString();
         sessionStorage.setItem('shindankekka',k );
     }
@@ -98,12 +102,15 @@ document.addEventListener('DOMContentLoaded', (event) => {
         'IMAGE/スクリーンショット 2025-11-25 214845.png',
         'IMAGE/スクリーンショット 2025-11-25 214845.png',
         'IMAGE/1755773016761.jpg',
+        'IMAGE/スクリーンショット 2025-11-25 214845.png',
+        'IMAGE/スクリーンショット 2025-11-25 214845.png',
+        'IMAGE/1755773016761.jpg',
     ]
     //診断結果を表示するコード 
     let kekka = Number(sessionStorage.getItem('shindankekka'));
     document.querySelector('#kekka_hyouzi').textContent = MBTeaI[kekka];
-    //const kekka_Image = document.getElementById('#otyaya_gazou');
-    //kekka_Image.src = otyayasan_gazou[kekka];
+    const kekka_Image = document.getElementById('otyaya_gazou');
+    kekka_Image.src = otyayasan_gazou[kekka];
     //ホーム画面に戻るコード
     const go_home = () => {
         window.location.href = "index.html";;
@@ -112,4 +119,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
         sessionStorage.removeItem('shindankekka');
     }
     btn_fini.addEventListener('click',go_home);
+});
+    //お茶屋さん紹介のページのコード
+document.addEventListener('DOMContentLoaded', (event) => {
+    
 });
