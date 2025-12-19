@@ -59,12 +59,12 @@ body {
 section p {
     width: 30vw;
     height: 200px;
-    margin: 100px 35vw 0 35vw;
+    margin: 100px 35vw 100px 35vw;
     font-size: 4vw;
 }
 #btn_q1{
     background: #8e0d0d;
-    margin:100px 5vw 20px 37vw;
+    margin:0 5vw 20px 37vw;
     width: 10vw;
     height: 50px;
     border-radius: 10px;
