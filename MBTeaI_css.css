@@ -45,6 +45,11 @@ body {
     align-items: center;      /* 縦中央 */
     margin: auto;
 }
+aside {/* サイドバー */
+  position: fixed;
+  top: 80px;
+  right: 0; /* 右側に配置 */
+}
 .botton {
     background: #0d6828;
     margin:0 45vw 0 45vw;
@@ -98,6 +103,11 @@ section p {
     height: 30px;
 }
 #kekka_hyouzi{
+    margin:0 40vw 0 40vw;
+    width: 20vw;
+    height: 50px;
+}
+#kekka_setumei{
     margin:0 40vw 0 40vw;
     width: 20vw;
     height: 50px;
