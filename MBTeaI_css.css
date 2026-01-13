@@ -9,7 +9,6 @@ body {
         url(IMAGE/IMG_3730.jpg); 
     background-size: cover;
     background-position: center;
-    overflow: hidden;
 }
 .header{
     position: fixed;
@@ -50,39 +49,98 @@ aside {/* サイドバー */
   top: 80px;
   right: 0; /* 右側に配置 */
 }
+#side_bar{
+    list-style: none;
+}
+#side_bar a{
+    color: #0d6828;
+    display: block;
+    margin: 20px 0 20px 0;
+}
+#side_bar a:hover{
+    color: #8e0d0d;
+}
+#sns{
+    display: flex;
+    list-style: none;
+}
+#x{
+    margin:0 30px 0 30px;
+    width: 100px;
+    height: 100px;
+}
+#instagram{
+    margin:0 30px 0 30px;
+    width: 100px;
+    height: 100px;
+}
+#radio{
+    margin:0 30px 0 30px;
+    width: 100px;
+    height: 100px;
+}
+#note{
+    margin:0 30px 0 30px;
+    width: 100px;
+    height: 100px; 
+}
 .botton {
     background: #0d6828;
-    margin:0 45vw 0 45vw;
-    width: 10vw;
-    height: 50px;
+    margin:0 42vw 0 42vw;
+    width: 16vw;
+    height: 80px;
     border-radius: 10px;
-    font-size: 15px;
+    font-size: 24px;
     color: #ffffff;
     font-weight: bold;
 }
+footer{
+    align-items:center;
+    background: #0d6828;
+    position: fixed;
+    display: flex;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 150px;
+    margin: 0;
+}
 /*診断画面*/
-section p {
-    width: 30vw;
+.text{
+    background-color: rgba(255,255,255,0.6);
+    background-position: relative;
+    margin: 0 15vw;
+}
+#question{
+    width: 60vw;
     height: 200px;
-    margin: 100px 35vw 100px 35vw;
-    font-size: 4vw;
+    margin: 0 5vw 0 5vw;
+    padding-top: 5vw;
+    font-size: 50px;
+    text-align: center;
+}
+#oxbtn{
+    display: flex;
+    margin-left:10vw;
 }
 #btn_q1{
     background: #8e0d0d;
-    margin:0 5vw 20px 37vw;
-    width: 10vw;
-    height: 50px;
+    width: 20vw;
+    height: 100px;
+    margin-bottom: 5vw;
     border-radius: 10px;
-    font-size: 15px;
+    font-size: 30px;
     color: #ffffff;
     font-weight: bold;
 }
 #btn_q2{
     background: #14419b;
-    width: 10vw;
-    height: 50px;
+    width: 20vw;
+    height: 100px;
+    margin-left: 10vw;
+    margin-bottom: 5vw;
     border-radius: 10px;
-    font-size: 15px;
+    font-size: 30px;
     color: #ffffff;
     font-weight: bold;
 }
@@ -105,10 +163,12 @@ section p {
 #kekka_hyouzi{
     margin:0 40vw 0 40vw;
     width: 20vw;
-    height: 50px;
+    height: 160px;
+    font-size: 120px;
 }
 #kekka_setumei{
     margin:0 40vw 0 40vw;
     width: 20vw;
     height: 50px;
 }
+/*説明画面*/
